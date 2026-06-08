@@ -1,8 +1,8 @@
 {
-  "name": "developer-portfolio",
-  "version": "1.0.1",
+  "name": "gokul-krishna-portfolio",
+  "version": "1.0.0",
   "private": true,
-  "description": "Responsive developer portfolio template built with Parcel, Sass, and Bootstrap.",
+  "description": "Gokul Krishna's personal developer portfolio.",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
@@ -10,13 +10,11 @@
   },
   "keywords": [
     "portfolio",
-    "developer",
-    "sass",
-    "parcel",
-    "bootstrap"
+    "gokul-krishna",
+    "developer"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Gokul Krishna",
+  "license": "MIT",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2",
     "parcel": "^2.8.2",
