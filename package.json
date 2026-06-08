@@ -16,8 +16,8 @@
   "author": "Gokul Krishna",
   "license": "MIT",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.8.2",
-    "parcel": "^2.8.2",
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0",
     "prettier": "^2.8.1"
   },
   "dependencies": {
