@@ -144,18 +144,17 @@
           <div class="col-lg-4 col-sm-12">
             <div class="load-hidden project-wrapper__text">
               <h3 class=project-wrapper__text-title>
-                Intelligent Plant Disease Analysis Pipeline
+                Model Drift Monitoring & Auto-Retraining Pipeline 
               </h3>
               <div>
                 <p class=mb-4>
-                  Production-grade, modular computer vision pipeline for
-                  automated plant disease detection from leaf images. Each
-                  stage — YOLO/CNN inference, disease classification,
-                  weather-aware risk scoring, and report generation — is
-                  independently testable. Integrates environmental context
-                  data alongside image classification for improved diagnostic
-                  accuracy. Docker-ready with .env-based configuration for
-                  API deployment.
+                   Built an end-to-end MLOps pipeline that ingests production e-commerce shipping
+                   data via FastAPI, detects distribution drift using Kolmogorov-Smirnov statistical tests across
+                   4 key features (p < 0.05 threshold), and enqueues a Celery retraining job automatically 
+                   when drift is flagged and implemented Champion-Challenger promotion strategy with a custom
+                   business-cost metric (FN: $50, FP: $5) — challenger model trained on a sliding window of recent
+                   data replaces champion only when it achieves strictly lower validation cost; all runs logged to 
+                   MLflow for full auditability
                 </p>
                 <p class=mb-4>
                   <strong>Stack:</strong> Python · OpenCV · Ultralytics YOLO
